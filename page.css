@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    
+}
+
+
+header {
+    /* background: #333; */
+    color: #fff;
+    padding: 10px 20px;
+    position: relative;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ban{
+    width: 50%;
+}
+
+.banner {
+    padding: 40px;
+    text-align: center;
+}
+
+.banner h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: blue;
+}
+.para{
+    background-color:#f0f7ff;
+    padding-top: 50px ;
+    padding-bottom: 50px;
+    text-align: center;
+    margin-top: 20px;
+} 
+
+.banner p {
+    font-size: 20px;
+    margin: 10px 0;
+}
+.row{
+    padding-left: 11px;
+    padding-right: 11px;
+    padding-top: 20px;
+}
+.col {
+    padding: 20px;
+    background: #e2e2e2;
+    column-count: 4;
+}
+.service {
+    margin: 15px 20px;
+    text-align: center;
+}
+
+.service h3 {
+    font-size: 20px;
+}
+
+.head{
+    background-color:#f0f7ff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+}
+
+
+.contact {
+    padding: 20px;
+    text-align: left;
+}
+
+.contact a {
+    color: #333;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+
+
+footer {
+    background: blue;
+    color: #fff;
+    text-align: left;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+.button{
+    background-color: orangered;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    color: rgb(247, 247, 247);
+    font-size: 20px;
+
+}
+
+
