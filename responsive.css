@@ -10,6 +10,10 @@
     .service {
         font-size: 1em;
     }
+    .service {
+        margin: 0 10px;
+        text-align: center; 
+    }
 }
 
 
@@ -31,9 +35,8 @@
         font-size: 1.1em;
     }
     .service{
-        margin: 10px 10px;
+        margin: 0px 10px;
         text-align: center;
-
     }
     .service p{
         text-align: center;
@@ -50,43 +53,8 @@
     
     .col{
         padding: 20px;
-        background: #e2e2e2;
+        background-color: white;
         column-count: 4;
-    }
-
-}
-
-
-
-@media (max-width: 489px) {
-    header .logo h1 {
-        font-size: 1.2em;
-    }
-
-    nav ul li a {
-        padding: 8px;
-        font-size: 0.9em;
-    }
-
-    .banner h2 {
-        font-size: 1.2em;
-    }
-
-    .services h2 {
-        font-size: 1.2em;
-    }
-
-    .service h3 {
-        font-size: 1em;
-    }
-    .service p{
-        text-align: left;
-    }
-    .service{
-        margin: 7px 8px;
-        margin-left: 1px;
-        text-align: center;
-
     }
 }
 

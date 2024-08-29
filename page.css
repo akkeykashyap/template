@@ -1,45 +1,40 @@
-* {
+html, body{
+    padding: 0%;
     margin: 0;
-    padding: 0;
     box-sizing: border-box;
+    font-family: arial, sans-serif;
+    background-color: #e2e2e2;
 }
-
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    padding: 0;
-    margin: 0;
-    align-items: center;
-    
+.container{
+    background-color: white;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
 }
-
-
-header {
-    /* background: #333; */
-    color: #fff;
-    padding: 10px 20px;
-    position: relative;
-}
-
-header .logo {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.ban{
-    width: 50%;
-}
-
-.banner {
-    padding: 40px;
+header{
+    background-color: #464343;
+    padding: 10px;
     text-align: center;
 }
-
-.banner h2 {
-    font-size: 2em;
-    margin-bottom: 10px;
+.logo img{
+    width: 100px;
+    height: auto;
+}
+.ban img{
+    width: 100%;
+    height: auto;
+}
+.banner{
+    text-align: center;
+    padding: 20px;
+}
+.banner h2{
+    text-align: center;
+    padding: 10px;
     color: blue;
+}
+.banner p{
+    text-align: center;
 }
 .para{
     background-color:#f0f7ff;
@@ -59,13 +54,13 @@ header .logo {
     padding-top: 20px;
 }
 .col {
-    padding: 20px;
-    background: #e2e2e2;
+    padding: 15px;
+    background-color: white;
     column-count: 4;
 }
 .service {
-    margin: 15px 20px;
-    text-align: center;
+    margin: 0 10px;
+    text-align: center; 
 }
 
 .service h3 {
@@ -77,6 +72,11 @@ header .logo {
     padding-top: 50px;
     padding-bottom: 50px;
     padding-left: 20px;
+    text-align: center;
+}
+.head h4{
+    text-align: left;
+    margin-left: 20px;
 }
 
 
@@ -93,7 +93,6 @@ header .logo {
 .contact a:hover {
     text-decoration: underline;
 }
-
 
 footer {
     background: blue;
@@ -113,12 +112,13 @@ footer a {
 footer a:hover {
     text-decoration: underline;
 }
+
 .button{
     background-color: orangered;
     margin-left: 30%;
     margin-right: 30%;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 5px;
+    margin-bottom: 30px;
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
